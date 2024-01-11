@@ -17,16 +17,17 @@
 def canUnlockAll(boxes):
     if not boxes:
         return False  # No boxes to open
-    # Initialize a set to track opened boxes
-    opened_boxes = set()
-    opened_boxes.add(0)  # Start with the first box
-    # Initialize a queue for BFS
-    queue = [0]
-    while queue:
-        current_box = queue.pop(0)  # Get the front of the queue
-        # Iterate through keys in the current box
-        for key in boxes[current_box]:
-            if key < len(boxes) and key not in opened_boxes:
-                opened_boxes.add(key)  # Mark the box as opened
-                queue.append(key)  # Add key to the queue for further explo
-    return len(opened_boxes) == len(boxes)
+    # Initialize a set to track reachable boxes
+    reachable_boxes = {0}
+    # Iterate until no more changes in reachable boxes
+    while True:
+        # Keep track of the previous set of reachable boxes
+        prev_reachable_boxes = set(reachable_boxes)
+        # Iterate through keys in all reachable boxes
+        for box_id in reachable_boxes:
+            reachable_boxes.update(boxes[box_id])
+        # Check for changes in reachable boxes
+        if prev_reachable_boxes == reachable_boxes:
+            break
+    # Check if all boxes are reachable
+    return len(reachable_boxes) == len(boxes)
