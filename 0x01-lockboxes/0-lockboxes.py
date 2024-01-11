@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # def canUnlockAll(boxes):
 #     # suppose box 0 is unlocked
 #     unlocked = [0]
