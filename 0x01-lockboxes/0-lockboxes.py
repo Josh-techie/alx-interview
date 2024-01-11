@@ -15,14 +15,18 @@
 #     return False
 
 def canUnlockAll(boxes):
-    """ Method that determines if all boxes can be opened """
-
-    for key in range(1, len(boxes)):
-        flag = False
-        for box in range(len(boxes)):
-            if key in boxes[box] and box != key:
-                flag = True
-                break
-        if not flag:
-            return False
-    return True
+    if not boxes:
+        return False  # No boxes to open
+    # Initialize a set to track opened boxes
+    opened_boxes = set()
+    opened_boxes.add(0)  # Start with the first box
+    # Initialize a queue for BFS
+    queue = [0]
+    while queue:
+        current_box = queue.pop(0)  # Get the front of the queue
+        # Iterate through keys in the current box
+        for key in boxes[current_box]:
+            if key < len(boxes) and key not in opened_boxes:
+                opened_boxes.add(key)  # Mark the box as opened
+                queue.append(key)  # Add key to the queue for further explo
+    return len(opened_boxes) == len(boxes)
