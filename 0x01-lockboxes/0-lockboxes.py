@@ -24,7 +24,7 @@ def canUnlockAll(boxes):
         # Keep track of the previous set of reachable boxes
         prev_reachable_boxes = set(reachable_boxes)
         # Iterate through keys in all reachable boxes
-        for box_id in reachable_boxes:
+        for box_id in prev_reachable_boxes.copy():  # copy for iteration
             reachable_boxes.update(boxes[box_id])
         # Check for changes in reachable boxes
         if prev_reachable_boxes == reachable_boxes:
