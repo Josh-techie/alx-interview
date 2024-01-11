@@ -9,6 +9,7 @@ def canUnlockAll(boxes):
             # if matched continue iteration else return false
             if key < len(boxes) and key not in unlocked and key != box_id:
                 unlocked.append(key)
+                
     if len(unlocked) == len(boxes):
         return True
     return False
