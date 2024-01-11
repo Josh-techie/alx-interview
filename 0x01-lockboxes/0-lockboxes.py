@@ -1,24 +1,21 @@
 #!/usr/bin/python3
+'''A module for working with lockboxes.
+'''
 
-# Lockboxes
-# Contains method that finds the keys to open other lockboxes
 
 def canUnlockAll(boxes):
-    """
-    Function that determines if you can open all the lockboxes
-    Args:
-        boxes: list of lists of integers
-    Returns:
-        True if you can open all the lockboxes, False otherwise
-    """
-    unlocked_boxes = [0]
-    for box_id, box in enumerate(boxes):
-        if not box:
+    '''Checks if all the boxes in a list of boxes containing the keys
+    (indices) to other boxes can be unlocked given that the first
+    box is unlocked.
+    '''
+    n = len(boxes)
+    seen_boxes = set([0])
+    unseen_boxes = set(boxes[0]).difference(set([0]))
+    while len(unseen_boxes) > 0:
+        boxIdx = unseen_boxes.pop()
+        if not boxIdx or boxIdx >= n or boxIdx < 0:
             continue
-        for key in box:
-            if key < len(boxes) and key not in unlocked_boxes \
-               and key != box_id:
-                unlocked_boxes.append(key)
-    if len(unlocked_boxes) == len(boxes):
-        return True
-    return False
+        if boxIdx not in seen_boxes:
+            unseen_boxes = unseen_boxes.union(boxes[boxIdx])
+            seen_boxes.add(boxIdx)
+    return n == len(seen_boxes)
