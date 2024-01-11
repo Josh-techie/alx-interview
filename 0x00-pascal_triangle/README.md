@@ -4,14 +4,6 @@
 
 This repository is for ALX Africa Intranet's Short Specializations Average. The project, 0x00. Pascal's Triangle, requires implementing a Python function to generate Pascal's Triangle up to a specified number of rows.
 
-### Project Details
-
-- **Author:** Alexa Orrico, Software Engineer at Holberton School
-- **Start Date:** Jan 2, 2024, 4:00 AM
-- **End Date:** Jan 5, 2024, 4:00 AM
-- **Auto Review:** Launches at the deadline
-
-## Task
 
 ### Pascal's Triangle
 

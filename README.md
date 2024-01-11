@@ -9,7 +9,7 @@ Feel free to explore the questions, work on the solutions, and contribute to the
 - [Pascal's Triangle](https://github.com/Josh-techie/alx-interview/blob/master/0x00-pascal_triangle/0-pascal_triangle.py)
   - Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of n.
 
-- [Lockboxes](https://github.com/YourUsername/alx-interview/blob/main/0x01-lockboxes/0-lockboxes.py)
+- [Lockboxes](https://github.com/Josh-techie/alx-interview/blob/master/0x01-lockboxes/0-lockboxes.py)
   - Implement a Python function `def canUnlockAll(boxes):` to determine if all the locked boxes can be opened. Given a list of locked boxes, each containing keys to other boxes, the function checks whether it's possible to open all the boxes. Return `True` if all boxes can be opened, and `False` otherwise.
 
 
