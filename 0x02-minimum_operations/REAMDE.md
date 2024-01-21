@@ -13,7 +13,7 @@ Create a function `minOperations(n)`:
 
 ## Repository Structure
 
-- **GitHub Repo:** [alx-interview](https://github.com/Josh-techie/alx-interview/)
+- **GitHub Repo:** [alx-interview](https://github.com/Josh-techie/alx-interview/tree/master/0x02-minimum_operations)
 - **Directory:** 0x02-minimum_operations
 - **File:** 0-minoperations.py
 
