@@ -15,7 +15,7 @@ This project, part of [ALX Africa](https://www.alxafrica.com/) Intranet's Algori
 ## Project Structure
 
 - **Directory:** 0x03-log_parsing
-- **File:** 0-stats.py
+- **File:** [0-stats.py](./0-stats.py)
 
 ## Tasks
 
@@ -48,7 +48,6 @@ File size: 5213
 404: 1
 405: 1
 500: 3
-# (Additional outputs as per script execution)
 ```
 
 ---
