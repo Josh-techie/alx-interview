@@ -23,6 +23,9 @@ Feel free to explore the questions, work on the solutions, and contribute to the
 - [0x02-minimum_operations](https://github.com/Josh-techie/alx-interview/blob/master/0x02-minimum_operations/0-minoperations.py)
   - Implement `minOperations(n)` in `0-minoperations.py`, which calculates the minimum operations to obtain n 'H' characters using a text editor capable of Copy All and Paste. Return the minimum number of operations or 0 if it's impossible.
 
+- [0x03-log_parsing](https://github.com/Josh-techie/alx-interview/blob/master/0x03-log_parsing/0-stats.py)
+  - Implement a log parsing script in Python. The goal is to read input from standard input (stdin) line by line, processing the data, and calculating various metrics. The input format involves lines containing IP addresses, dates, HTTP requests, status codes, and file sizes. The script prints statistics after every 10 lines or upon a keyboard interruption (CTRL + C).
+
 ---
 
 ### Contributing
