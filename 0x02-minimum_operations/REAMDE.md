@@ -33,8 +33,6 @@ Min number of operations to reach 12 characters: 7
 
 ## Requirements
 
-#### General
-
 - Allowed editors: vi, vim, emacs
 - Files interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
 - All files end with a new line
@@ -43,10 +41,22 @@ Min number of operations to reach 12 characters: 7
 - Code documentation and adherence to PEP 8 style (version 1.7.x)
 - All files must be executable
 
-## Support
+---
 
-For issues or assistance, please contact for support.
+## Author
 
-## Copyright
+- [`@Josh-techie`]() | Software Engineer Student
 
-Copyright © 2024 ALX. All rights reserved.
+  > Reach out to me if you need any help or have any questions.
+
+  <a href="mailto:youssef.abouyahia@e-polytechnique.ma">
+  	<img alt="Feel free to contact me" src="https://img.shields.io/badge/-Ask_me_anything-blue?style=flat&logo=Gmail&logoColor=white&link=mailto:youssef.abouyahia@e-polytechnique.ma&color=3d85c6" />
+  </a>
+  <span> | </span>
+    <a href="https://www.linkedin.com/in/youssef-abouyahia/">
+        <img alt="Linkedin Profile" src="https://img.shields.io/badge/-Linkedin-0072b1?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/youssef-abouyahia/" />
+    </a>
+    <span> | </span>
+    <a href="https://twitter.com/JoesephAb">
+        <img alt="Twitter Profile" src="https://img.shields.io/badge/-Twitter-0072b1?style=flat&logo=Twitter&logoColor=white&link=https://twitter.com/JoesephAb&color=1DA1F2" />
+    </a>
