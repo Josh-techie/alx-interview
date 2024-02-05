@@ -1,35 +1,48 @@
-# ALX Interview Repo: Minimum Operations
+<p align="center">
+<img src ="https://media.istockphoto.com/id/1410589984/vector/text-document-on-computer-screen.jpg?s=612x612&w=0&k=20&c=GIx3wzGiX6UQDCP8JvQDoDI7TragRLyOBN7OYxT80jc=">
+</p>
+
+---
+
+# Minimum Operations
 
 ## Overview
 
-This repository is dedicated to the ALX Africa Intranet's Short Specializations Average. The project, 0x02. Minimum Operations, is part of the Algorithm curriculum. The goal is to implement a Python function that calculates the fewest number of operations needed to achieve a specific character count.
+- This repository is dedicated to the ALX Africa Intranet's Short Specializations Average. The project, 0x02. Minimum Operations, is part of the Algorithm curriculum. In a text file, there is a single character `H`. Your text editor can execute only two operations in this file: `Copy All` and `Paste`. Given a number `n`, write a method that calculates the fewest number of operations needed to result in exactly n `H` characters in the file.
 
-### Minimum Operations
+---
 
-Create a function `minOperations(n)`:
+## Task
+
+**Create a function `minOperations(n)`:**
 
 - Returns the minimum number of operations needed to result in exactly `n` characters of 'H'.
 - Returns 0 if it's impossible to achieve the given count.
 
+---
+
 ## Repository Structure
 
-- **GitHub Repo:** [alx-interview](https://github.com/Josh-techie/alx-interview/tree/master/0x02-minimum_operations)
 - **Directory:** 0x02-minimum_operations
-- **File:** 0-minoperations.py
+- **File:** [0-minoperations.py](./0-minoperations.py)
 
-## Completion Status
-
-Ensure completion of `0-minoperations.py`.
+---
 
 ## How to Run
 
 Execute `./0-main.py` to test your `minOperations` function.
+
+---
+
+## Test Script
 
 ```bash
 $ ./0-main.py
 Min number of operations to reach 4 characters: 4
 Min number of operations to reach 12 characters: 7
 ```
+
+---
 
 ## Requirements
 
