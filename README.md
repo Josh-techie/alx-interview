@@ -15,16 +15,23 @@ Feel free to explore the questions, work on the solutions, and contribute to the
 ### Table of Contents
 
 - [0x00-pascal_triangle](https://github.com/Josh-techie/alx-interview/blob/master/0x00-pascal_triangle/0-pascal_triangle.py)
+
   - Create a function `def pascal_triangle(n):` that returns a list of lists of integers representing the Pascal’s triangle of n.
 
 - [0x01-lockboxes](https://github.com/Josh-techie/alx-interview/blob/master/0x01-lockboxes/0-lockboxes.py)
+
   - Implement a Python function `def canUnlockAll(boxes):` to determine if all the locked boxes can be opened. Given a list of locked boxes, each containing keys to other boxes, the function checks whether it's possible to open all the boxes. Return `True` if all boxes can be opened, and `False` otherwise.
 
 - [0x02-minimum_operations](https://github.com/Josh-techie/alx-interview/blob/master/0x02-minimum_operations/0-minoperations.py)
+
   - Implement `minOperations(n)` in `0-minoperations.py`, which calculates the minimum operations to obtain n 'H' characters using a text editor capable of Copy All and Paste. Return the minimum number of operations or 0 if it's impossible.
 
 - [0x03-log_parsing](https://github.com/Josh-techie/alx-interview/blob/master/0x03-log_parsing/0-stats.py)
+
   - Implement a log parsing script in Python. The goal is to read input from standard input (stdin) line by line, processing the data, and calculating various metrics. The input format involves lines containing IP addresses, dates, HTTP requests, status codes, and file sizes. The script prints statistics after every 10 lines or upon a keyboard interruption (CTRL + C).
+
+- [0x04-utf8_validation](https://github.com/Josh-techie/alx-interview/blob/master/0x04-utf8_validation/0-validate_utf8.py)
+  - It involves the implementation of a Python script creating a method, `validUTF8(data)`, the method overall checks whether a given data set is a valid UTF-8 encoding or not.
 
 ---
 
@@ -51,4 +58,3 @@ If you have a new coding question to add or if you find any issues with existing
     <a href="https://twitter.com/JoesephAb">
         <img alt="Twitter Profile" src="https://img.shields.io/badge/-Twitter-0072b1?style=flat&logo=Twitter&logoColor=white&link=https://twitter.com/JoesephAb&color=1DA1F2" />
     </a>
-
