@@ -37,7 +37,7 @@ Feel free to explore the questions, work on the solutions, and contribute to the
 
 ### Contributing
 
-If you have a new coding question to add or if you find any issues with existing questions, please feel free to contribute. Follow me on my github [Josh-Techie](https://github.com/Josh-techie)
+If you have a new coding question to add or if you find any issues with existing questions, please feel free to contribute by opening an issue, and don't forget to follow me on my github [Josh-Techie](https://github.com/Josh-techie)
 
 ---
 
