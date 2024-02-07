@@ -39,13 +39,13 @@
 
 <h1> Contributing </h1>
 
-- ⭐ If you find these coding problems useful in your journey of software engineer, please consider giving me a star on GitHub! Your support helps me continue to innovate and share.
+⭐ If you find these coding problems useful in your journey of software engineer, please consider giving me a star on GitHub! Your support helps me continue to innovate and share.
 
-- If you have a new coding question to add or if you find any issues with existing questions, please feel free to contribute by opening an issue, and don't forget to follow me on my github [Josh-Techie](https://github.com/Josh-techie)
+> If you have a new coding question to add or if you find any issues with existing questions, please feel free to contribute by opening an issue, and don't forget to follow me on my github [Josh-Techie](https://github.com/Josh-techie)
 
 ---
 
-## Author
+<h1> Author </h1>
 
 - [`@Josh-techie`]() | Software Engineer Student
 
