@@ -14,7 +14,9 @@
 
 ---
 
-### Table of Contents
+<p align="center">
+<h1> Table of Contents </h1>
+</p>
 
 - [0x00-pascal_triangle](https://github.com/Josh-techie/alx-interview/blob/master/0x00-pascal_triangle/)
 
