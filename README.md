@@ -7,6 +7,7 @@
 <p align="center">
 <h1> Interview Coding Questions - ALX </h1>
 </p>
+
 - In this section, you will find a collection of interview coding questions specifically tailored for ALX. These questions cover various topics and are designed to help you prepare for interviews, improve your problem-solving skills, and enhance your understanding of algorithms and programming concepts.
 
 > Feel free to explore the questions, work on the solutions, and contribute to the repository. Good luck with your preparation!
