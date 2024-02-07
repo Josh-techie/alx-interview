@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+
 > Chess grandmaster Judit Polgár, , the strongest female chess player of all time
 </p>
 
