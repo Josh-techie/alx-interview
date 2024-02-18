@@ -28,6 +28,50 @@
 
 <h1> Project Stucture</h1>
 
+- **Directory:** 0x06. Star Wars API
+- **File:** [0-starwars_characters.js](./0-starwars_characters.js)
+
+---
+
+<h1> Usage </h1>
+
+- To use the script for printing all characters of a Star Wars movie, follow these steps:
+
+1. Ensure you have Node.js installed on your system.
+2. Clone or download the project repository to your local machine.
+3. Navigate to the project directory: `cd 0x06-starwars_api`.
+4. Run the script with the desired movie ID as a command-line argument:
+   ```
+   $ node 0-starwars_characters.js <Movie ID>
+   ```
+   Replace `<Movie ID>` with the ID of the desired Star Wars movie (e.g., 3 for "Return of the Jedi").
+5. The script will display the character names from the movie in the same order as the "characters" list in the /films/ endpoint of the Star Wars API.
+
+> Example usage:
+```
+$ node 0-starwars_characters.js 3
+Luke Skywalker
+C-3PO
+R2-D2
+Darth Vader
+Leia Organa
+Obi-Wan Kenobi
+Chewbacca
+Han Solo
+Jabba Desilijic Tiure
+Wedge Antilles
+Yoda
+Palpatine
+Boba Fett
+Lando Calrissian
+Ackbar
+Mon Mothma
+Arvel Crynyd
+Wicket Systri Warrick
+Nien Nunb
+Bib Fortuna
+```
+
 ---
 
 <h1> Author </h1>
