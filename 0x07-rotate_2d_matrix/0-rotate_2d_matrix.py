@@ -8,13 +8,11 @@ def rotate_2d_matrix(matrix):
     Returns:
     - None: The matrix is modified in-place.
     """
-    n = len(matrix)
-    for layer in range(n // 2):
-        first, last, offset = layer, n - 1 - layer, 0
-        for i in range(first, last):
-            top = matrix[first][i]
-            matrix[first][i] = matrix[last - offset][first]
-            matrix[last - offset][first] = matrix[last][last - offset]
-            matrix[last][last - offset] = matrix[i][last]
-            matrix[i][last] = top
-            offset += 1
+    copy_matrix = matrix.copy()
+    matrix.clear()
+
+    copy_matrix.reverse()
+
+    for idx in range(len(copy_matrix)):
+        temp_row = [element[idx] for element in copy_matrix]
+        matrix.append(temp_row)
