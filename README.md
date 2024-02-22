@@ -33,7 +33,19 @@
   - Implement a log parsing script in Python. The goal is to read input from standard input (stdin) line by line, processing the data, and calculating various metrics. The input format involves lines containing IP addresses, dates, HTTP requests, status codes, and file sizes. The script prints statistics after every 10 lines or upon a keyboard interruption (CTRL + C).
 
 - [0x04-utf8_validation](https://github.com/Josh-techie/alx-interview/blob/master/0x04-utf8_validation/)
+
   - It involves the implementation of a Python script creating a method, `validUTF8(data)`, the method overall checks whether a given data set is a valid UTF-8 encoding or not.
+
+- [0x05-nqueens](https://github.com/Josh-techie/alx-interview/tree/master/0x05-nqueens)
+
+  - Implement a Python program `0-nqueens.py` that solves the N queens puzzle. The program takes an integer N (≥4) as a command-line argument and prints all non-attacking queen placements on an `N×N` chessboard. If input is incorrect, appropriate error messages are displayed. The solution format is a `list` of queen positions for each valid configuration. The program adheres to specified requirements, using only the `sys` module for imports.
+
+- [0x06-starwars_api](https://github.com/Josh-techie/alx-interview/tree/master/0x06-starwars_api)
+
+  - Implement a JavaScript script `0-starwars_characters.js` for the **Star Wars Characters** project. The script interacts with the **Star Wars API** to fetch and print character names from a specified `movie ID` passed as a command-line argument. The characters are displayed in the same order as the **characters** list in the `/films/ endpoint`. The script adheres to specified requirements, using the `request` module for HTTP requests and following **semistandard** JavaScript style.
+
+- [0x07-rotate_2d_matrix](https://github.com/Josh-techie/alx-interview/tree/master/0x07-rotate_2d_matrix)
+  - Implement a Python script `0-rotate_2d_matrix.py` for the **Rotate 2D Matrix** project. The script uses an in-place algorithm to rotate an `n x n` **2D matrix by 90 degrees clockwise**. It adheres to specified requirements, including `pycodestyle` for style compliance, **no external module imports**, and proper **documentation**. The script takes a `2D matrix` as input, rotates it in-place, and does not `return` anything. Test cases in `main_0.py` validate the correctness of the rotation algorithm.
 
 ---
 
