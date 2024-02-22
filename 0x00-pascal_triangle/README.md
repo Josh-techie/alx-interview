@@ -2,35 +2,59 @@
 <img src ="https://th.bing.com/th/id/R.9e24baedbf50715b3578229f7cb2c274?rik=W3amA5E%2fst8TZA&pid=ImgRaw&r=0">
 </p>
 
----
+<p align="center">
 
-# Pascal's Triangle
+> Pascal Triangle overview
 
-## Overview
-
-This repository is for ALX Africa Intranet's Short Specializations Average. The project, 0x00. Pascal's Triangle, requires implementing a Python function to generate Pascal's Triangle up to a specified number of rows.
+</p>
 
 ---
 
-## Task
+<h2> Pascal's Triangle </h2>
 
-Create a function `pascal_triangle(n)`:
-
-- Returns Pascal’s triangle of `n`.
-- Returns an empty list if `n <= 0`.
+- - This project entitled `0x00. Pascal's Triangle` focuses on implementing a Python function `0-pascal_triangle.py` for the **Pascal's Triangle** project. The function, `pascal_triangle(n)`, returns a list of lists of integers representing Pascal’s triangle of size n. It handles edge cases, returning an empty list if `n` is less than or equal to 0. The function adheres to specified requirements and is validated using a provided test script `0-main.py`.
 
 ---
 
-## Repository Structure
+<h2> Ressources </h2>
+
+- [What is Pascal’s triangle](https://www.cuemath.com/algebra/pascals-triangle/)
+- [Pascal’s Triangle - Numberphile](https://www.youtube.com/watch?feature=shared&v=0iMtlus-afo)
+- [What are Python Algorithms](https://builtin.com/data-science/python-algorithms)
+
+> Additional Ressources
+
+- [Mock Technical Interview](https://www.youtube.com/watch?feature=shared&v=1qw5ITr3k9E)
+
+---
+
+<h2> Project Structure </h2>
 
 - **Directory:** 0x00-pascal_triangle
 - **File:** [0-pascal_triangle.py](/0-pascal_triangle.py)
 
 ---
 
-## How to Run
+<h2> Usage </h2>
 
-Execute `./0-main.py` to test your `pascal_triangle` function.
+- To generate Pascal's Triangle, follow these steps:
+
+1. Ensure you have Python installed on your system.
+2. Clone or download the project repository to your local machine.
+3. Navigate to the project directory: `cd 0x00-pascal_triangle`.
+4. Open a terminal and run the script with the desired size of Pascal's Triangle as a command-line argument: `./0-pascal_triangle.py <size>`
+   > Replace `<size>` with the desired size (an integer greater than 0).
+5. The script will display Pascal's Triangle with the specified size, showing the coefficients of each row.
+
+> Example usage: **for an input of `4` here's the appropriate output:**
+
+```
+$ ./0-main.py
+[1]
+[1,1]
+[1,2,1]
+[1,3,3,1]
+```
 
 ---
 
