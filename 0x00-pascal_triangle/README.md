@@ -1,18 +1,14 @@
 <p align="center">
 <img src ="https://th.bing.com/th/id/R.9e24baedbf50715b3578229f7cb2c274?rik=W3amA5E%2fst8TZA&pid=ImgRaw&r=0">
-</p>
-
-<p align="center">
 
 > Pascal Triangle overview
-
 </p>
 
 ---
 
 <h2> Pascal's Triangle </h2>
 
-- - This project entitled `0x00. Pascal's Triangle` focuses on implementing a Python function `0-pascal_triangle.py` for the **Pascal's Triangle** project. The function, `pascal_triangle(n)`, returns a list of lists of integers representing Pascal’s triangle of size n. It handles edge cases, returning an empty list if `n` is less than or equal to 0. The function adheres to specified requirements and is validated using a provided test script `0-main.py`.
+-  This project entitled `0x00. Pascal's Triangle` focuses on implementing a Python function `0-pascal_triangle.py` for the **Pascal's Triangle** project. The function, `pascal_triangle(n)`, returns a list of lists of integers representing Pascal’s triangle of size n. It handles edge cases, returning an empty list if `n` is less than or equal to 0. The function adheres to specified requirements and is validated using a provided test script `0-main.py`.
 
 ---
 
@@ -43,6 +39,7 @@
 2. Clone or download the project repository to your local machine.
 3. Navigate to the project directory: `cd 0x00-pascal_triangle`.
 4. Open a terminal and run the script with the desired size of Pascal's Triangle as a command-line argument: `./0-pascal_triangle.py <size>`
+
    > Replace `<size>` with the desired size (an integer greater than 0).
 5. The script will display Pascal's Triangle with the specified size, showing the coefficients of each row.
 
