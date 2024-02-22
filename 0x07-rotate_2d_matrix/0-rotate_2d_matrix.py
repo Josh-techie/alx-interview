@@ -1,6 +1,19 @@
-matrix_input = [1, 2, 3], [4, 5, 6], [7, 8, 9]
-# Input: [1, 2, 3], [4, 5, 6], [7, 8, 9]
-print(matrix_input)
+def rotate_2d_matrix(matrix):
+    """
+    Rotates an n x n 2D matrix 90 degrees clockwise in-place.
 
-# Output: [[7, 4, 1],[8, 5, 2],[9, 6, 3]]
-# print(matrix_output)
+    Args:
+    - matrix: List of lists representing the 2D matrix.
+
+    Returns:
+    - None: The matrix is modified in-place.
+    """
+    # Step 1: Transpose the Matrix
+    n = len(matrix)
+    for i in range(n):
+        for j in range(i, n):
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+
+    # Step 2: Reverse Rows
+    for row in matrix:
+        row.reverse()
