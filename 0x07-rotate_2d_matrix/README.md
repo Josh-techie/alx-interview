@@ -39,7 +39,7 @@
 
 <h2> Steps to Follow </h2>
 
-1- **Create the Python File** : Create a new Python file for your 2D matrix, rotation and name it `0-rotate_2d_matrix.py`.
+1 - **Create the Python File** : Create a new Python file for your 2D matrix, rotation and name it `0-rotate_2d_matrix.py`.
 2 - **Implement the 2D Matrice Function** : Open christmas_tree.py and implementing a function to print the Christmas tree.
 3 - **Run the Script** : Run your script to see the magic happen
 4 - **Test Script** : Test your script by feeding it these inputs and check the output of it checks, what's listed below.
