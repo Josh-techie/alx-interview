@@ -8,11 +8,13 @@ def rotate_2d_matrix(matrix):
     Returns:
     - None: The matrix is modified in-place.
     """
-    copy_matrix = matrix.copy()
-    matrix.clear()
+    n = len(matrix)
 
-    copy_matrix.reverse()
+    # Transpose the matrix in-place
+    for i in range(n):
+        for j in range(i + 1, n):
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
-    for idx in range(len(copy_matrix)):
-        temp_row = [element[idx] for element in copy_matrix]
-        matrix.append(temp_row)
+    # Reverse each row in-place
+    for row in matrix:
+        row.reverse()
