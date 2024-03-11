@@ -28,7 +28,7 @@
 <h2> Repository Structure </h2>
 
 - **Directory:** 0x09-island_perimeter
-- **File:** [0-island_perimeter.py](/0-island_perimeter.py)
+- **File:** [0-island_perimeter.py](./0-island_perimeter.py)
 
 ---
 
