@@ -25,23 +25,16 @@
 
 <h2> Task </h2>
 
-- **Island Perimeter:**
-  - Implement the function `island_perimeter(grid)` to calculate the perimeter of the island described in the given 2D grid.
-  - Prototype: `def island_perimeter(grid) -> int`.
-  - The input `grid` is a list of lists of integers, where:
-    - 0 represents water.
-    - 1 represents land.
-    - Each cell is a square with a side length of 1.
-    - Cells are connected horizontally/vertically (not diagonally).
-    - The grid is rectangular, with its width and height not exceeding 100.
-    - The grid is completely surrounded by water.
-    - There is only one island (or nothing), and the island doesn't have "lakes" (water inside that isn't connected to the water surrounding the island).
-  - Apply concepts of 2D arrays, conditional logic, and counting techniques to identify and calculate the perimeter of the island.
-  - Use nested loops for iterating over grid cells and conditional statements to check the status of adjacent cells.
-  - Adhere to PEP 8 style guidelines (version 1.7).
-  - Ensure all modules and functions are documented.
-  - Make all files executable.
-  - Test your implementation using the provided test script `0-main.py` and verify that the output matches the expected results.
+- Making Change:
+  - Implement the function `makeChange(coins, total)` to find the fewest number of coins needed to meet a given total amount.
+  - Prototype: `def makeChange(coins, total)`.
+  - Return the fewest number of coins needed to meet the total.
+  - If the total is 0 or less, return 0.
+  - If the total cannot be met by any number of coins, return -1.
+  - The input `coins` is a list of values representing the denominations of coins.
+  - The value of a coin will always be an integer greater than 0.
+  - Assume an infinite number of each denomination of coin in the list.
+  - The solution's runtime will be evaluated.
 
 ---
 
