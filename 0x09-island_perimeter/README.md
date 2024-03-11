@@ -23,8 +23,6 @@
 
 ---
 
----
-
 <h2> Repository Structure </h2>
 
 - **Directory:** 0x09-island_perimeter
